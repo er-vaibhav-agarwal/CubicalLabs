@@ -1,0 +1,95 @@
+body {
+  
+}
+
+#SearchArtist{
+    width: 14%;
+    text-align: center;
+    background-color: #A0D4FD;
+    padding:0.5%;
+    margin: 2% auto 0 auto;
+    border: 2px solid #55b0f7;
+    cursor:pointer;
+    color: #FFFFFF;
+}
+
+#Search{
+    width: 20%;
+    text-align: center;
+    background-color: #A0D4FD;
+    padding:0.5%;
+    margin: 2% auto 0 auto;
+    border: 2px solid #55b0f7;
+    cursor:pointer;
+    color: #FFFFFF;
+
+}
+
+#SearchArtist:hover, #Search:hover{
+background-color: #8bb9dd;
+}
+
+#TabsContainer, #ArtistDataGrid, #SearchOverlay, #ArtWorkText, #ArtsWorkValue{
+display: none;
+}
+
+#TabsContainer{
+position:relative;
+}
+
+#NameContainer{
+display:inline-block;
+padding:0.5%;
+width:40%;
+}
+
+#UserInputContainer{
+display:inline-block;
+padding:0.5%;
+}
+
+#NameText, #TracksText, #ArtWorkText{
+padding: 5%;
+text-align:right;
+}
+
+#NameUserText, #TracksUserText, #ArtsWorkValue{
+padding:5%;
+text-align:right;
+}
+
+#CubicalLabsContainer{
+position:relative;
+}
+
+#SearchOverlay{
+width:40%;
+padding-top:4%;
+padding-bottom:4%;
+margin:20% auto 0 auto;
+border: 2px solid #55b0f7;
+}
+ 
+.tab{
+background-color: #A0D4FD;
+text-align:center;
+display:inline-block;
+padding:2%;
+}
+
+.tab:hover{
+background-color:#8bb9dd !important;
+cursor:pointer;
+}
+
+#loadingImage{
+position:fixed;
+top:52%;
+left:48%;
+display:none;
+}
+
+#upImage{
+top:2%;
+display:none;
+}
